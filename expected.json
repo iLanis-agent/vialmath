@@ -1,0 +1,971 @@
+{
+ "cases": [
+  {
+   "fn": "boxes",
+   "args": [
+    "940",
+    "50"
+   ],
+   "expect": "The 940 vials at 50 vials a box take 19 boxes, the last box holding 40 vials."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "940",
+    "110"
+   ],
+   "expect": "The 940 vials at 110 vials a week last 8 full weeks with 60 vials left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "19",
+    "27.40",
+    "940"
+   ],
+   "expect": "The 19 boxes at $27.40 a box come to $520.60, $0.55 a vial."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "940",
+    "12"
+   ],
+   "expect": "The 940 vials at 12 vials a minute take 79 minutes, 1 hour 19 minutes."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 vial at 1 vial a box takes 1 box, the last box holding 1 vial."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "900",
+    "50"
+   ],
+   "expect": "The 900 vials at 50 vials a box take 18 boxes, the last box holding 50 vials."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "1000000",
+    "1000"
+   ],
+   "expect": "The 1000000 vials at 1000 vials a box take 1000 boxes, the last box holding 1000 vials."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 vial at 1 vial a week lasts 1 full week with 0 vials left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "880",
+    "110"
+   ],
+   "expect": "The 880 vials at 110 vials a week last 8 full weeks with 0 vials left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1000000",
+    "100000"
+   ],
+   "expect": "The 1000000 vials at 100000 vials a week last 10 full weeks with 0 vials left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "1",
+    "0.01",
+    "1"
+   ],
+   "expect": "The 1 box at $0.01 a box comes to $0.01, $0.01 a vial."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "100000",
+    "999.99",
+    "1000000"
+   ],
+   "expect": "The 100000 boxes at $999.99 a box come to $99999000.00, $100.00 a vial."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 vial at 1 vial a minute takes 1 minute, 0 hours 1 minute."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "60",
+    "1"
+   ],
+   "expect": "The 60 vials at 1 vial a minute take 60 minutes, 1 hour 0 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1000000",
+    "100"
+   ],
+   "expect": "The 1000000 vials at 100 vials a minute take 10000 minutes, 166 hours 40 minutes."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "211482",
+    "724"
+   ],
+   "expect": "The 211482 vials at 724 vials a box take 293 boxes, the last box holding 74 vials."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "845853",
+    "329"
+   ],
+   "expect": "The 845853 vials at 329 vials a box take 2571 boxes, the last box holding 323 vials."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "877301",
+    "731"
+   ],
+   "expect": "The 877301 vials at 731 vials a box take 1201 boxes, the last box holding 101 vials."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "731247",
+    "189"
+   ],
+   "expect": "The 731247 vials at 189 vials a box take 3870 boxes, the last box holding 6 vials."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "489569",
+    "867"
+   ],
+   "expect": "The 489569 vials at 867 vials a box take 565 boxes, the last box holding 581 vials."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "224781",
+    "964"
+   ],
+   "expect": "The 224781 vials at 964 vials a box take 234 boxes, the last box holding 169 vials."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "430229",
+    "423"
+   ],
+   "expect": "The 430229 vials at 423 vials a box take 1018 boxes, the last box holding 38 vials."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "123207",
+    "609"
+   ],
+   "expect": "The 123207 vials at 609 vials a box take 203 boxes, the last box holding 189 vials."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "70118",
+    "76"
+   ],
+   "expect": "The 70118 vials at 76 vials a box take 923 boxes, the last box holding 46 vials."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "657831",
+    "567"
+   ],
+   "expect": "The 657831 vials at 567 vials a box take 1161 boxes, the last box holding 111 vials."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "529997",
+    "745"
+   ],
+   "expect": "The 529997 vials at 745 vials a box take 712 boxes, the last box holding 302 vials."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "19441",
+    "191"
+   ],
+   "expect": "The 19441 vials at 191 vials a box take 102 boxes, the last box holding 150 vials."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "941721",
+    "104"
+   ],
+   "expect": "The 941721 vials at 104 vials a box take 9056 boxes, the last box holding 1 vial."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "79453",
+    "671"
+   ],
+   "expect": "The 79453 vials at 671 vials a box take 119 boxes, the last box holding 275 vials."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "955371",
+    "918"
+   ],
+   "expect": "The 955371 vials at 918 vials a box take 1041 boxes, the last box holding 651 vials."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "845959",
+    "376"
+   ],
+   "expect": "The 845959 vials at 376 vials a box take 2250 boxes, the last box holding 335 vials."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "401073",
+    "699"
+   ],
+   "expect": "The 401073 vials at 699 vials a box take 574 boxes, the last box holding 546 vials."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "884784",
+    "555"
+   ],
+   "expect": "The 884784 vials at 555 vials a box take 1595 boxes, the last box holding 114 vials."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "676302",
+    "217"
+   ],
+   "expect": "The 676302 vials at 217 vials a box take 3117 boxes, the last box holding 130 vials."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "342613",
+    "981"
+   ],
+   "expect": "The 342613 vials at 981 vials a box take 350 boxes, the last box holding 244 vials."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "134590",
+    "40115"
+   ],
+   "expect": "The 134590 vials at 40115 vials a week last 3 full weeks with 14245 vials left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "302127",
+    "31440"
+   ],
+   "expect": "The 302127 vials at 31440 vials a week last 9 full weeks with 19167 vials left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "877764",
+    "71852"
+   ],
+   "expect": "The 877764 vials at 71852 vials a week last 12 full weeks with 15540 vials left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "362344",
+    "5142"
+   ],
+   "expect": "The 362344 vials at 5142 vials a week last 70 full weeks with 2404 vials left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "394961",
+    "33924"
+   ],
+   "expect": "The 394961 vials at 33924 vials a week last 11 full weeks with 21797 vials left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "847748",
+    "76469"
+   ],
+   "expect": "The 847748 vials at 76469 vials a week last 11 full weeks with 6589 vials left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "526057",
+    "87908"
+   ],
+   "expect": "The 526057 vials at 87908 vials a week last 5 full weeks with 86517 vials left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "479170",
+    "15532"
+   ],
+   "expect": "The 479170 vials at 15532 vials a week last 30 full weeks with 13210 vials left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "132273",
+    "295"
+   ],
+   "expect": "The 132273 vials at 295 vials a week last 448 full weeks with 113 vials left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "985721",
+    "75615"
+   ],
+   "expect": "The 985721 vials at 75615 vials a week last 13 full weeks with 2726 vials left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "689005",
+    "74325"
+   ],
+   "expect": "The 689005 vials at 74325 vials a week last 9 full weeks with 20080 vials left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "571767",
+    "23610"
+   ],
+   "expect": "The 571767 vials at 23610 vials a week last 24 full weeks with 5127 vials left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "34903",
+    "31169"
+   ],
+   "expect": "The 34903 vials at 31169 vials a week last 1 full week with 3734 vials left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "358264",
+    "42896"
+   ],
+   "expect": "The 358264 vials at 42896 vials a week last 8 full weeks with 15096 vials left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "692102",
+    "18995"
+   ],
+   "expect": "The 692102 vials at 18995 vials a week last 36 full weeks with 8282 vials left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "754334",
+    "23576"
+   ],
+   "expect": "The 754334 vials at 23576 vials a week last 31 full weeks with 23478 vials left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "579443",
+    "46289"
+   ],
+   "expect": "The 579443 vials at 46289 vials a week last 12 full weeks with 23975 vials left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "765754",
+    "84850"
+   ],
+   "expect": "The 765754 vials at 84850 vials a week last 9 full weeks with 2104 vials left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "99687",
+    "50930"
+   ],
+   "expect": "The 99687 vials at 50930 vials a week last 1 full week with 48757 vials left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "30512",
+    "49100"
+   ],
+   "expect": "The 30512 vials at 49100 vials a week last 0 full weeks with 30512 vials left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "39521",
+    "993.1",
+    "771651"
+   ],
+   "expect": "The 39521 boxes at $993.10 a box come to $39248305.10, $50.86 a vial."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "79221",
+    "369.45",
+    "358634"
+   ],
+   "expect": "The 79221 boxes at $369.45 a box come to $29268198.45, $81.61 a vial."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "56253",
+    "245.28",
+    "227559"
+   ],
+   "expect": "The 56253 boxes at $245.28 a box come to $13797735.84, $60.63 a vial."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "95937",
+    "649.24",
+    "557669"
+   ],
+   "expect": "The 95937 boxes at $649.24 a box come to $62286137.88, $111.69 a vial."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "69022",
+    "76.19",
+    "410803"
+   ],
+   "expect": "The 69022 boxes at $76.19 a box come to $5258786.18, $12.80 a vial."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "35149",
+    "278.64",
+    "210428"
+   ],
+   "expect": "The 35149 boxes at $278.64 a box come to $9793917.36, $46.54 a vial."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "61858",
+    "527.02",
+    "467668"
+   ],
+   "expect": "The 61858 boxes at $527.02 a box come to $32600403.16, $69.71 a vial."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "19104",
+    "183.08",
+    "620501"
+   ],
+   "expect": "The 19104 boxes at $183.08 a box come to $3497560.32, $5.64 a vial."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "71749",
+    "356.5",
+    "325858"
+   ],
+   "expect": "The 71749 boxes at $356.50 a box come to $25578518.50, $78.50 a vial."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "50176",
+    "409.93",
+    "283866"
+   ],
+   "expect": "The 50176 boxes at $409.93 a box come to $20568647.68, $72.46 a vial."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "18942",
+    "702.35",
+    "750579"
+   ],
+   "expect": "The 18942 boxes at $702.35 a box come to $13303913.70, $17.72 a vial."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "86776",
+    "104.18",
+    "763891"
+   ],
+   "expect": "The 86776 boxes at $104.18 a box come to $9040323.68, $11.83 a vial."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "58780",
+    "819.17",
+    "626445"
+   ],
+   "expect": "The 58780 boxes at $819.17 a box come to $48150812.60, $76.86 a vial."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "26826",
+    "551.83",
+    "577749"
+   ],
+   "expect": "The 26826 boxes at $551.83 a box come to $14803391.58, $25.62 a vial."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "18077",
+    "696.96",
+    "692167"
+   ],
+   "expect": "The 18077 boxes at $696.96 a box come to $12598945.92, $18.20 a vial."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "56261",
+    "62.03",
+    "252943"
+   ],
+   "expect": "The 56261 boxes at $62.03 a box come to $3489869.83, $13.80 a vial."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "19158",
+    "59.55",
+    "961354"
+   ],
+   "expect": "The 19158 boxes at $59.55 a box come to $1140858.90, $1.19 a vial."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "61304",
+    "931.17",
+    "994211"
+   ],
+   "expect": "The 61304 boxes at $931.17 a box come to $57084445.68, $57.42 a vial."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "47225",
+    "296.38",
+    "940953"
+   ],
+   "expect": "The 47225 boxes at $296.38 a box come to $13996545.50, $14.87 a vial."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "24752",
+    "298.78",
+    "198034"
+   ],
+   "expect": "The 24752 boxes at $298.78 a box come to $7395402.56, $37.34 a vial."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "77172",
+    "411.67",
+    "787112"
+   ],
+   "expect": "The 77172 boxes at $411.67 a box come to $31769397.24, $40.36 a vial."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "2824",
+    "214.5",
+    "104376"
+   ],
+   "expect": "The 2824 boxes at $214.50 a box come to $605748.00, $5.80 a vial."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "35235",
+    "445.4",
+    "750769"
+   ],
+   "expect": "The 35235 boxes at $445.40 a box come to $15693669.00, $20.90 a vial."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "72015",
+    "541.64",
+    "261363"
+   ],
+   "expect": "The 72015 boxes at $541.64 a box come to $39006204.60, $149.24 a vial."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "70228",
+    "992.5",
+    "639096"
+   ],
+   "expect": "The 70228 boxes at $992.50 a box come to $69701290.00, $109.06 a vial."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "506690",
+    "3"
+   ],
+   "expect": "The 506690 vials at 3 vials a minute take 168897 minutes, 2814 hours 57 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "545684",
+    "68"
+   ],
+   "expect": "The 545684 vials at 68 vials a minute take 8025 minutes, 133 hours 45 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "727112",
+    "11"
+   ],
+   "expect": "The 727112 vials at 11 vials a minute take 66102 minutes, 1101 hours 42 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "523981",
+    "80"
+   ],
+   "expect": "The 523981 vials at 80 vials a minute take 6550 minutes, 109 hours 10 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "994980",
+    "87"
+   ],
+   "expect": "The 994980 vials at 87 vials a minute take 11437 minutes, 190 hours 37 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "396083",
+    "2"
+   ],
+   "expect": "The 396083 vials at 2 vials a minute take 198042 minutes, 3300 hours 42 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "346265",
+    "78"
+   ],
+   "expect": "The 346265 vials at 78 vials a minute take 4440 minutes, 74 hours 0 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "214535",
+    "28"
+   ],
+   "expect": "The 214535 vials at 28 vials a minute take 7662 minutes, 127 hours 42 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "258732",
+    "4"
+   ],
+   "expect": "The 258732 vials at 4 vials a minute take 64683 minutes, 1078 hours 3 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "569997",
+    "26"
+   ],
+   "expect": "The 569997 vials at 26 vials a minute take 21923 minutes, 365 hours 23 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "146328",
+    "29"
+   ],
+   "expect": "The 146328 vials at 29 vials a minute take 5046 minutes, 84 hours 6 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "264015",
+    "99"
+   ],
+   "expect": "The 264015 vials at 99 vials a minute take 2667 minutes, 44 hours 27 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "689429",
+    "33"
+   ],
+   "expect": "The 689429 vials at 33 vials a minute take 20892 minutes, 348 hours 12 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "258521",
+    "40"
+   ],
+   "expect": "The 258521 vials at 40 vials a minute take 6464 minutes, 107 hours 44 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "67912",
+    "56"
+   ],
+   "expect": "The 67912 vials at 56 vials a minute take 1213 minutes, 20 hours 13 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "685913",
+    "50"
+   ],
+   "expect": "The 685913 vials at 50 vials a minute take 13719 minutes, 228 hours 39 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "352008",
+    "47"
+   ],
+   "expect": "The 352008 vials at 47 vials a minute take 7490 minutes, 124 hours 50 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "656799",
+    "77"
+   ],
+   "expect": "The 656799 vials at 77 vials a minute take 8530 minutes, 142 hours 10 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "585492",
+    "43"
+   ],
+   "expect": "The 585492 vials at 43 vials a minute take 13617 minutes, 226 hours 57 minutes."
+  }
+ ],
+ "errors": [
+  [
+   "boxes",
+   [
+    "0",
+    "50"
+   ]
+  ],
+  [
+   "boxes",
+   [
+    "1000001",
+    "50"
+   ]
+  ],
+  [
+   "boxes",
+   [
+    "2.5",
+    "50"
+   ]
+  ],
+  [
+   "boxes",
+   [
+    "940",
+    "0"
+   ]
+  ],
+  [
+   "boxes",
+   [
+    "940",
+    "1001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "0",
+    "110"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "940",
+    "0"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "940",
+    "100001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "940",
+    "1.5"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "1000001",
+    "110"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "27.40",
+    "940"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "100001",
+    "27.40",
+    "940"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "19",
+    "0",
+    "940"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "19",
+    "27.405",
+    "940"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "19",
+    "27.40",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "0",
+    "12"
+   ]
+  ],
+  [
+   "time",
+   [
+    "940",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "940",
+    "101"
+   ]
+  ],
+  [
+   "time",
+   [
+    "940",
+    "6.5"
+   ]
+  ],
+  [
+   "time",
+   [
+    "1000001",
+    "12"
+   ]
+  ]
+ ]
+}
